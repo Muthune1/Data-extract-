@@ -2,7 +2,7 @@ import requests
 import csv
 from csv import writer
 
-r = requests.get('https://gameads-admin.applifier.com/stats/monetization-api?apikey=5640cef8c3cc9715b6ffbaea24611168b7f57cb216ba2a1e8b33695a8fea4a3e&splitBy=zone,country&fields=platform,views,revenue&start=-4&end=-1&scale=day&sourceIds=2998620,1598743,1598742')
+r = requests.get('https://gameads-admin.applifier.com/stats/monetization-api?apikey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&splitBy=zone,country&fields=platform,views,revenue&start=-4&end=-1&scale=day&sourceIds=2998620,1598743,1598742')
 #print (r.status)
 print (r.text)
 with open('out_unity.csv','w') as f:   
